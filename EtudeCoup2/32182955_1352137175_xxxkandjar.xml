@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href= "CoupXML.xsl" ?>
+
+<Coup nom = "32182955_1352137175_xxxkandjar.010">
+	<cartes>
+		<carte nom="flop">6s 8h 3d</carte>
+		<carte nom="turn">3s</carte>
+		<carte nom="river">7c</carte>
+	</cartes>
+	<cotes>
+		<preflop nom="won">27.97</preflop>
+		<preflop nom="lose">66.54</preflop>
+		<preflop nom="tie">5.49</preflop>
+		<flop nom="won">16.67</flop>
+		<flop nom="lose">80.70</flop>
+		<flop nom="tie">2.63</flop>
+		<turn nom="won">27.27</turn>
+		<turn nom="lose">61.36</turn>
+		<turn nom="tie">11.36</turn>
+	</cotes>
+	<badbeat>
+		<preflop nom="60">false</preflop>
+		<preflop nom="65">false</preflop>
+		<preflop nom="70">false</preflop>
+		<preflop nom="75">false</preflop>
+		<preflop nom="80">false</preflop>
+		<preflop nom="85">false</preflop>
+		<preflop nom="90">false</preflop>
+		<flop nom="60">false</flop>
+		<flop nom="65">false</flop>
+		<flop nom="70">false</flop>
+		<flop nom="75">false</flop>
+		<flop nom="80">false</flop>
+		<flop nom="85">false</flop>
+		<flop nom="90">false</flop>
+		<turn nom="60">false</turn>
+		<turn nom="65">false</turn>
+		<turn nom="70">false</turn>
+		<turn nom="75">false</turn>
+		<turn nom="80">false</turn>
+		<turn nom="85">false</turn>
+		<turn nom="90">false</turn>
+	</badbeat>
+	<bigddeal valMainBD="-0,05" validBD="1" BDpreFlop="0,6154" BDFlop="0,5678" validBDFlop="1" BDTurn="0,3757" validBDTurn="1" FMRR="0,5">true</bigdeal>
+	<jetons>
+		<badbeat nom="total">0</badbeat>
+		<badbeat nom="preflop">0</badbeat>
+		<badbeat nom="flop">0</badbeat>
+		<badbeat nom="turn">0</badbeat>
+		<badbeat nom="river">0</badbeat>
+		<bigdeal nom="total">93133,4062</bigdeal>
+		<bigdeal nom="preflop">93133,4062</bigdeal>
+		<bigdeal nom="flop">0</bigdeal>
+		<bigdeal nom="turn">0</bigdeal>
+		<bigdeal nom="river">0</bigdeal>
+		<shoetime nom="total">0</shoetime>
+		<shoetime nom="preflop">0</shoetime>
+		<shoetime nom="flop">0</shoetime>
+		<shoetime nom="turn">0</shoetime>
+		<shoetime nom="river">0</shoetime>
+		<proteges nom="Bad Beat">0</proteges>
+		<proteges nom="Big Deal">93133</proteges>
+		<proteges nom="Shoe Time">0</proteges>
+	</jetons>
+	<tapis>
+		<moyen>248390</moyen>
+		<initial>151338</initial>
+		<badbeat>0</badbeat>
+		<bigdeal>0,6154</bigdeal>
+		<shoetime>0</shoetime>
+		<moyen>
+			<badbeat>0</badbeat>
+			<bigddeal>0,3749</bigdeal>
+			<shoetime>0</shoetime>
+		</moyen>
+	</tapis>
+	<facteur>
+		<vitesse temps="13172" niveau="21" mtt="627">1.0</vitesse>
+		<moment duree="13172" calcule="16465">1</moment>
+		<nbjoueur actifs="8">0,9</nbjoueur>
+		<avenue nom="B">0,95</avenue>
+		<fmrr>
+			<globale badbeat="1" bigdeal="1" shoetime="1">1</globale>
+			<remboursements badbeat="0" bigddeal="1" shoetime="0"></remboursements>
+		</fmrr>
+		<fmsa aa="true" ana="false" tana="1" bba="2" bda="2" sta="2" dabbbd="2" dabbst="2"></fmsa>
+		<ftj calcule="13172" brut="1,3172" itm="false">1,3172</ftj>
+		<fmsa buyIn="5" br="1">5</fmsa>
+	</facteur>
+	<calcul>
+		<br>5</br>
+		<ftj> : 1,3172</
+		<fv> : 1</
+		<fm> : 1</
+		<fnj> : 0,9</
+		<fda> : 0,95</
+		<fpjp> : 0,6154</
+		<FPJP_TM> : 0,3749</
+		<fmr> : 1</
+		<fmsa> : 2</
+		<remboursement>: 2,5986</remboursement
+		<soit>51,9729 % du BR</
+******************************************
+      Remboursement pris en compte 
+******************************************
+remboursement calculé BB : 0
+remboursement calculé BD : 2,5986
+remboursement calculé ST : 0
+dernier remboursement calculé : 2.598643
+remboursement retenu : 2,5986
+-------------------------------------------------------------------
+138224739213639681-207-1352137175
+1352137175
+21
+1352124003
+0
+Deepstack Hold'em
+32182955
+Winamax Poker
+4,50¬ + 0,50¬
+#000
+6s 8h 3d
+3s
+7c
+Perrineleis - false - 243555 - 18000 - 0 - 0 - 0 - 0 -  - A -  - true
+
+CARREJJ - false - 417008 - 2000 - 0 - 0 - 0 - 0 -  - A -  - true
+
+jujubelucky - false - 314400 - 2000 - 0 - 0 - 0 - 0 -  - A -  - true
+
+azn2vn - false - 202770 - 2000 - 0 - 0 - 0 - 0 -  - A -  - true
+
+xxxkandjar - true - 151338 - 2000 - 149338 - 0 - 0 - 0 - As Js - B - lost - true
+
+OMtropuissan - false - 146182 - 2000 - 144182 - 0 - 0 - 0 - Ah Qc - B - won - true
+
+PHIPHI DU73 - false - 298096 - 2000 - 0 - 0 - 0 - 0 -  - A -  - true
+
+jafar31 - false - 213776 - 10000 - 0 - 0 - 0 - 0 -  - A -  - true
+
+</Coup>

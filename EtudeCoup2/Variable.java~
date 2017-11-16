@@ -1,0 +1,64 @@
+import java.util.Timer;
+import java.util.TimerTask;
+
+/**
+ * Description : A faire
+ *
+ * @author Thierry Mater
+ * @version 1.0.0 (30/05/2017)
+ */
+public class Variable
+{
+    public static String dossierHH;
+}
+
+public class RepetAction
+{
+    // variables d'instance
+    Timer t;
+    private String fichierArchive = "fichier.fic";
+
+    private Gestion gestionDossier = new Gestion();
+
+    public RepetAction(String repertoire)
+    {
+
+        Variable.dossierHH = repertoire;
+
+        try {
+            gestionDossier.travail(Variable.dossierHH);
+        }
+        catch (Exception e) {
+            System.out.println("Impossible de lire le dossier");
+        }
+
+        try {
+            gestionDossier.extractionList();
+        }
+        catch (Exception e) {
+            System.out.println("Impossible d'extraire une liste");
+        }
+
+        t = new Timer();
+        t.schedule(new GestionHH(), 20*1000, 5*1000);
+    }
+
+    public void stop()
+    {
+        t.cancel();
+    }
+
+    class GestionHH extends TimerTask
+    {
+
+        public void run()
+        {
+            try {
+                gestionDossier.traitementHH();
+            }
+            catch (Exception e) {
+                System.out.println("Erreur dans le traitement HH");
+            }
+        }
+    }
+}

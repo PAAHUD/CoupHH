@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=eValeurXML
+comment0.text=\n\ Enumeration\ eDonnee\ -\ Enregistrement\ des\ valeur\ pour\ le\ fichier\n\ r\u00E9sultat\n\n\ @author\ (PAA\ Thierry\ Mater\n\ @version\ 0.1.0beta\ du\ 02/11/17\n
+comment1.params=txt1\ valeur\ txt2
+comment1.target=eValeurXML(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getValeur()
+comment3.params=valeur
+comment3.target=void\ setValeur(java.lang.String)
+comment4.params=
+comment4.target=void\ raz()
+comment5.params=
+comment5.target=java.lang.String\ ecriture()
+numComments=6

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=FileWritter
+comment1.params=
+comment1.target=FileWritter()
+comment1.text=\r\n\ FileWritter\ Constructeur\r\n\r\n
+comment2.params=repertoire\ date
+comment2.target=void\ exportDate(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ M\u00E9thode\ exportDate\r\n\r\n\ @param\ date\ Un\ param\u00E8tre\r\n
+comment3.params=repertoire\ date\ dossier
+comment3.target=void\ exportFichier(java.lang.String,\ java.lang.String,\ java.util.List)
+comment3.text=\r\n\ M\u00E9thode\ exportFichier\r\n\r\n\ @param\ date\ Un\ param\u00E8tre\r\n\ @param\ dossier\ Un\ param\u00E8tre\r\n
+numComments=4

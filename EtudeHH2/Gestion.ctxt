@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Gestion
+comment1.params=
+comment1.target=Gestion()
+comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ Gestion\n
+comment2.params=
+comment2.target=void\ travail()
+comment2.text=\n\ M\u00E9thode\ travail\ sans\ param\u00E8tre\n\n\ Permet\ la\ mise\ \u00E0\ jour\ de\ la\ liste\ des\ fichiers\ pr\u00E9sent\ dans\ le\ dossier\ des\ HH\n
+comment3.params=repertoire
+comment3.target=void\ travail(java.lang.String)
+comment3.text=\n\ M\u00E9thode\ travail\ avec\ pamat\u00E8tre\n\n\ Permet\ la\ mise\ \u00E0\ jour\ de\ la\ liste\ des\ fichiers\ pr\u00E9sent\ dans\ le\ dossier\ des\ HH\n\ @param\ repertoire\ Un\ param\u00E8tre\n
+comment4.params=
+comment4.target=void\ extractionList()
+comment4.text=\n\ M\u00E9thode\ extractionList\n\n
+comment5.params=
+comment5.target=void\ traitementHH()
+comment5.text=\n\ M\u00E9thode\ traitementHH\n\n
+comment6.params=
+comment6.target=void\ enregistrementList()
+comment6.text=\n\ M\u00E9thode\ enregistrementList\n\n
+numComments=7

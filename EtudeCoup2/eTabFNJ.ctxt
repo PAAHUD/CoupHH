@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=eTabFNJ
+comment1.params=id\ valeur
+comment1.target=eTabFNJ(int,\ java.lang.Float)
+comment2.params=
+comment2.target=void\ setFacteurMoment()
+comment3.params=id
+comment3.target=java.lang.Float\ facteurNbreJoueur(int)
+numComments=4

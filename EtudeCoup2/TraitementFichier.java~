@@ -1,0 +1,48 @@
+/**
+ * Décrivez votre classe TraitementFichier ici.
+ *
+ * @author (Thierry Mater
+ * @version 1.0.0 (27 mai 2017)
+ */
+import java.io.*;
+
+public class TraitementFichier
+{
+    private FileReader fichierCoup;
+
+    /**
+     * TraitementFichier Constructeur
+     *
+     */
+    public TraitementFichier()
+    {
+        //fichierCoup = new FileReader();
+    }
+
+ 
+    /**
+     * Méthode selectionFichier
+     *
+     * @param fichier Un paramètre
+     * @return La valeur de retour
+     */
+    public void selectionFichier(String dossier, String fichier) throws IOException
+    {
+        
+        String dossierFichier = dossier + "//" + fichier;
+        InputStream fstream = fichierCoup.openFile(new File(dossierFichier).getAbsolutePath());
+        
+        BufferedReader in = new BufferedReader(new InputStreamReader(fstream));
+        
+        String ligne = in.readLine();
+
+        while(ligne != null) {
+
+                System.out.println(ligne);
+                
+            ligne = in.readLine();
+        }
+        
+        in.close();
+    }    
+}

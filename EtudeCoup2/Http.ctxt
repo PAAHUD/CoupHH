@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Http
+comment1.params=url
+comment1.target=java.lang.String\ get(java.lang.String)
+numComments=2

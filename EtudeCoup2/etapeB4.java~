@@ -1,0 +1,36 @@
+
+/**
+ * Classe etapeB4.
+ * 
+ * @author PAA Thierry Mater
+ * @version 0.1.0beta du 14/11/17
+ */
+public class etapeB4
+{
+    // variables d'instance
+
+    /**
+     * Constructeur d'objets de classe etapeB4
+     */
+    public etapeB4()
+    {
+
+    }
+
+    /**
+     * 
+     *
+     * @param rien
+     * @return rien
+     */
+    public static void b4() 
+    {
+
+        eVariables.FDA.setFloat(eTabFDA.facteurAvenue(eVariables.dernierAvenue.getChar()));
+        
+        System.out.println(eVariables.FDA.getFloat());
+
+        //fctValeurFichier("Facteur de dernière avenue : " + df.format(FDA), "EtapeB4");
+        //fctValeurFichier("Dernière avenue : " + dernierAvenue, "");
+    }
+}

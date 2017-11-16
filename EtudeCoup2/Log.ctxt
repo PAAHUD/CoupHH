@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Log
+comment0.text=\r\n\ Class\ permettant\ l'enregistrement\ des\ erreurs\ dans\ un\ fichier\r\n\r\n\ @author\ PAA\ Thierry\ Mater\r\n\ @version\ 0.0.1beta\ du\ 11/10/17\r\n\ \r\n\ *******************************************************************\r\n\ \ version\ 0.0.3beta\r\n\ \ \ \ \ \ \ \ \ 18/10/17\ correction\ de\ la\ date\ dans\ le\ nom\ du\ fichier\ log\r\n\ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \r\n\ *******************************************************************\r\n
+comment1.params=text
+comment1.target=Log(java.lang.String)
+comment1.text=\r\n\ Ouvre\ le\ fichier\ et\ ajouter\ une\ ligne\ de\ texte\r\n\ @param\ filename\r\n\ @param\ text\r\n
+numComments=2

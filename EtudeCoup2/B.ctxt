@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=B
+comment1.params=
+comment1.target=B()
+comment1.text=\r\n\ Constructeur\ d'objets\ de\ classe\ etapeB4\r\n
+comment2.params=
+comment2.target=void\ etape1()
+comment2.text=\r\n\ \ B1\ /\ Facteur\ de\ vitesse\ du\ MTT\ au\ moment\ de\ coup\ \:\ FV\r\n\ \ (heure\ du\ coup\ de\ l'accident\ -\ l'heure\ du\ 1er\ coup\ de\ la\ HH-h)\ /\ (level\ du\ coup\ de\ l'accident\r\n\ \ \ -\ level\ du\ coup\ de\ la\ HH-h\ dans\ lequel,\ pour\ la\ 1\u00E8re\ fois,\ le\ level\ est\ sup\u00E9rieur\ \u00C3\u00A0\ 0)\ \r\n\r\n\ @param\ rien\r\n\ @return\ rien\r\n
+comment3.params=
+comment3.target=void\ etape2()
+comment3.text=\r\n\ \ B2\ /\ Facteur\ de\ moment\ du\ MTT\ \:\ FM\r\n\ \ \ \ \ \ 2/\ calcul\ de\ la\ dur\u00C3\u00A9e\ jusqu'au\ moment\ de\ l'accident\r\n\ \ \ \ \ \ (heure\ du\ coup\ de\ l\u00E2\u20AC\u2122accident\ \u00E2\u20AC\u201C\ heure\ du\ coup\ d\u00C3\u00A9but\ du\ tournoi)\r\n\ \ \r\n\ \ \ \ \ \ 3/\ on\ multiplie\ cette\ dur\u00C3\u00A9e\ r\u00C3\u00A9elle\ de\ jeu\ par\ le\ multiplicateur\ correspondant\r\n\ \ \ \ \ \ du\ tableau\ valeurFM.ini\r\n\r\n\ \ \ \ \ \ 5/\ et\ on\ calcule\ la\ variable\ <<Facteur\ de\ moment>>\ avec\ les\ tableaux\r\n\r\n\ @param\ rien\r\n\ @return\ rien\r\n
+comment4.params=
+comment4.target=void\ etape3()
+comment4.text=\r\n\ \r\n\r\n\ @param\ rien\r\n\ @return\ rien\r\n
+comment5.params=
+comment5.target=void\ etape4()
+comment5.text=\r\n\ B4\ /\ Facteur\ de\ derniere\ avenue\ (preflop,\ flop,\ turn,\ river)\ \:\ \r\n\ \ \ \ \ \ derniere\ avenue\ ou\ le\ hero\ a\ mise\ des\ jetons\ (raise\ ou\ bet\r\n\ \ \ \ \ \ ou\ call\ dans\ la\ HH)\ \:\ FDA\r\n\r\n\ @param\ rien\r\n\ @return\ rien\r\n
+comment6.params=
+comment6.target=void\ etape5()
+comment6.text=\r\n\ B5\ /\ D\u00E9finition\ de\ plusieurs\ facteurs\ de\ modulation\ \:\r\n\ \ \ \ \ \ Modulation\ Globale\ des\ remboursements\ \:\ MGR\r\n\ \ \ \ \ \ Modulation\ des\ Remboursements\ Bad*Beat\ \:\ MRBB\r\n\ \ \ \ \ \ Modulation\ des\ Remboursements\ Big-Deal\ \:\ MRBD\r\n\ \ \ \ \ \ Modulation\ des\ Remboursements\ Shoe-Time\ \:\ MRST\r\n\ \r\n\ \ \ \ \ \ Donc\ selon\ le\ type\ d'accident\ et\ selon\ la\ modulation\ \r\n\ \ \ \ \ \ globale\ des\ remboursements,\ nous\ obtenons\ un\ facteur\r\n\ \ \ \ \ \ de\ modulation\ des\ remboursements\ \:\r\n\ \ \ \ \ \ FMR\ \=\ MGR\ *\ (MRBB\ ||\ MRBD\ ||\ MRST)\r\n\r\n\ @param\ rien\r\n\ @return\ rien\r\n
+comment7.params=
+comment7.target=void\ etape6()
+comment7.text=\r\n\ B6\ /\ D\u00E9finition\ et\ quantification\ des\ diff\u00E9rences\ entre\ accidents\r\n\ \ \ \ \ \ aggrav\u00E9s\ et\ accidents\ non\ aggrav\u00E9s\ \:\r\n\ \ \ \ \ \ TIJ\ \u00E9tant\ le\ tapis\ initial\ du\ joueur\ au\ d\u00E9but\ du\ coup\ et\ TFJ\r\n\ \ \ \ \ \ \u00E9tant\ le\ tapis\ final\ du\ joueur\ \u00C3\u00A0\ la\ fin\ du\ coup,\ le\ facteur\r\n\ \ \ \ \ \ de\ gravit\u00E9\ de\ l'accident\ \=\ NJP\ /\ TIJ\ exprim\u00E9\ en\ %\ \r\n\r\n\ @param\ rien\r\n\ @return\ rien\r\n
+comment8.params=
+comment8.target=void\ etape7()
+comment8.text=\r\n\ Facteur\ de\ Temps\ de\ jeu\ \:\ FTJ\r\n\ \ Plus\ le\ moment\ de\ l'accident\ est\ \u00E9loign\u00E9\ du\ d\u00E9but\ du\ tournoi,\r\n\ \ plus\ le\ d\u00E9dommagement\ est\ important\ \:\ \r\n\ \ FTJ\ \=\ nombre\ de\ secondes\ \u00E9coul\u00E9es\ depuis\ le\ 1er\ coup\ de\ la\ HH\r\n\ \ jusqu'au\ coup\ de\ l'accident\ divis\u00E9\ par\ cent\r\n\ \ (FTJ\ \=\ temps\ /\ 100%,\ ou\ \ FTJ\ \=\ temps\ /\ 10\ 000)\ mais\r\n\ \ \ \ \ \ si\ Hero\ est\ ITM,\ alors\ FTJ\ \=\ 100%\r\n\ \ \ \ \ \ si\ FTJ\ <\ 50%\ (ou\ FTJ\ <\ 0.5),\ alors\ FTJ\ \=\ 50%\r\n\ \ \ \ \ \ si\ FTJ\ >\ 200%\ (ou\ FTJ\ >\ 2.0),\ alors\ FTJ\ \=\ 200%\r\n\r\n\ @param\ rien\r\n\ @return\ rien\r\n
+numComments=9

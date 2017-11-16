@@ -1,0 +1,51 @@
+
+/**
+ * Décrivez votre classe test ici.
+ *
+ * @author (votre nom)
+ * @version (un numéro de version ou une date)
+ */
+public class test
+{
+    // variables d'instance
+    byte calcul;
+    /**
+     * Constructeur d'objets de classe test
+     */
+    public test()
+    {
+
+    }
+
+    /**
+     * Un exemple de méthode - remplacez ce commentaire par le vôtre
+     *
+     * @param  y   le paramètre de la méthode
+     * @return     la somme de x et de y
+     */
+    public void sampleMethod()
+    {
+        BadBeat BBpreFlop = new BadBeat();
+        BadBeat BBFlop = new BadBeat();
+        BadBeat BBTurn = new BadBeat();
+        
+        BBpreFlop.calcul(20, 0.71f);
+        
+        System.out.println("resultat : " + BBpreFlop.valeur() + " / " + BBpreFlop.resultat());
+        
+        BBFlop.calcul(1, 0.82f);
+        
+        System.out.println("resultat : " + BBFlop.valeur() + " / " + BBFlop.resultat());
+        
+        BBTurn.calcul(10, 0.66f);
+        
+        System.out.println("resultat : " + BBTurn.valeur() + " / " + BBTurn.resultat());
+        
+        calcul = (byte) (BBpreFlop.valeur() & BBFlop.valeur());
+        
+        calcul = (byte) (calcul & BBTurn.valeur());
+        
+        System.out.println("resultat final : " + calcul);
+        System.out.println("soit un bouclier de : " + BouclierBB.recherche(calcul));
+    }
+}

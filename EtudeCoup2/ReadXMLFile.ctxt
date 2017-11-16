@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ReadXMLFile
+comment0.text=\r\n\ D\u00E9crivez\ votre\ classe\ ReadXMLFile\ ici.\r\n\ \r\n\ @author\ Thierry\ Mater\ \r\n\ @version\ 0.2.1\r\n\ @since\ 27/08/2015\r\n\ \r\n\ 0.1\ \:\ version\ original\r\n\ 24/09/16\r\n\ 0.2\ \:\ modification\ des\ valeurs\ WIN\ LOSE\ TIE\ par\ la\ suppression\ du\ caract\u00E8re\ %\r\n\ 13/09/17\r\n\ 0.2.1\ \:\ modification\ mineur\ avant\ abondon\r\n
+comment1.params=retour
+comment1.target=void\ xmlFile(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getWin()
+comment3.params=
+comment3.target=java.lang.String\ getLose()
+comment4.params=
+comment4.target=java.lang.String\ getTie()
+numComments=5

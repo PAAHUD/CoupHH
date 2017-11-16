@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=eTabFMR
+comment1.params=valeur
+comment1.target=eTabFMR(java.lang.Float)
+comment2.params=
+comment2.target=void\ setFacteurModulation()
+comment3.params=
+comment3.target=java.lang.Float\ getMGR()
+comment4.params=
+comment4.target=java.lang.Float\ getMRBB()
+comment5.params=
+comment5.target=java.lang.Float\ getMRBD()
+comment6.params=
+comment6.target=java.lang.Float\ getMRST()
+numComments=7

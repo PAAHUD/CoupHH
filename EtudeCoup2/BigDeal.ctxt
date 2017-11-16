@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=BigDeal
+comment0.text=\r\n\ D\u00E9crivez\ votre\ classe\ BigDeal\ ici.\r\n\r\n\ @author\ Thierry\ Mater\r\n\ @version\ 0.2\r\n\ @since\ 13/09/2017\r\n
+comment1.params=
+comment1.target=BigDeal()
+comment1.text=\r\n\ Default\ constructor.\r\n
+comment2.params=ass\ adv\ validiteBD\ valeurMain
+comment2.target=BigDeal(java.lang.String,\ java.lang.String,\ float,\ float)
+comment2.text=\r\n\ Constructor\ with\ some\ initial\ data.\r\n\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ getAss()
+comment4.params=
+comment4.target=java.lang.String\ getAdv()
+comment5.params=
+comment5.target=float\ getvaliditeBD()
+comment6.params=
+comment6.target=float\ getValeurMain()
+numComments=7

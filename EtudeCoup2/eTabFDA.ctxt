@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=eTabFDA
+comment1.params=car\ valeur
+comment1.target=eTabFDA(char,\ java.lang.Float)
+comment2.params=
+comment2.target=void\ setFacteurAvenue()
+comment3.params=car
+comment3.target=java.lang.Float\ facteurAvenue(char)
+numComments=4

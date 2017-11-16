@@ -1,0 +1,102 @@
+
+/**
+ * Classe etapeB.
+ * 
+ * @author PAA Thierry Mater
+ * @version 0.1.0beta du 14/11/17
+ */
+public class etapeB
+{
+    // variables d'instance
+
+    /**
+     * Constructeur d'objets de classe etapeB4
+     */
+    public etapeB()
+    {
+
+    }
+    
+    /**
+     * 
+     *
+     * @param rien
+     * @return rien
+     */
+    public static void B1() 
+    {
+
+    }
+
+    /**
+     * 
+     *
+     * @param rien
+     * @return rien
+     */
+    public static void B2() 
+    {
+
+    }
+
+    /**
+     * 
+     *
+     * @param rien
+     * @return rien
+     */
+    public static void B3() 
+    {
+
+    }
+
+    /**
+     * B4 / Facteur de derniere avenue (preflop, flop, turn, river) : 
+     *      derniere avenue ou le hero a mise des jetons (raise ou bet
+     *      ou call dans la HH) : FDA
+     *
+     * @param rien
+     * @return rien
+     */
+    public static void B4() 
+    {
+
+        eVariables.FDA.setFloat(eTabFDA.facteurAvenue(eVariables.dernierAvenue.getChar()));
+
+        //fctValeurFichier("Facteur de dernière avenue : " + df.format(FDA), "EtapeB4");
+        //fctValeurFichier("Dernière avenue : " + dernierAvenue, "");
+    }
+
+    /**
+     * 
+     *
+     * @param rien
+     * @return rien
+     */
+    public static void B5() 
+    {
+
+    }
+
+    /**
+     * 
+     *
+     * @param rien
+     * @return rien
+     */
+    public static void B6() 
+    {
+
+    }
+
+    /**
+     * 
+     *
+     * @param rien
+     * @return rien
+     */
+    public static void B7() 
+    {
+
+    }
+}

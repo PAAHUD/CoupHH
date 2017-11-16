@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=TraitementDate
+comment1.params=
+comment1.target=TraitementDate()
+comment1.text=\r\n\ Constructeur\ d'objets\ de\ classe\ TraitementDate\r\n
+comment2.params=repertoire
+comment2.target=java.lang.String\ selectionDate(java.lang.String)
+comment2.text=\r\n\ M\u00E9thode\ selectionDate\r\n\r\n\ @return\ La\ valeur\ de\ retour\r\n
+comment3.params=repertoire\ listeTournois
+comment3.target=void\ selectionTournois(java.lang.String,\ java.util.List)
+comment3.text=\r\n\ M\u00E9thode\ selectionTournois\r\n\r\n\ @param\ listeTournois\ Un\ param\u00E8tre\r\n
+comment4.params=dateAncienne
+comment4.target=java.lang.String\ dateSuivante(java.lang.String)
+comment4.text=\r\n\ M\u00E9thode\ dateSuivante\r\n\r\n\ @param\ dateAncienne\ Un\ param\u00E8tre\r\n\ @return\ La\ valeur\ de\ retour\r\n
+numComments=5

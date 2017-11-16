@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CheminDossier
+comment0.text=\r\n\ Enumeration\ CheminDossier\ -\ \u00E9crire\ ici\ la\ description\ de\ l'\u00E9num\u00E9ration\r\n\r\n\ @author\ (votre\ nom)\r\n\ @version\ (num\u00E9ro\ de\ version\ ou\ date)\r\n
+comment1.params=id\ chemin
+comment1.target=CheminDossier(java.lang.Integer,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getChemin()
+comment3.params=chemin
+comment3.target=void\ setChemin(java.lang.String)
+comment4.params=
+comment4.target=java.lang.Integer\ getId()
+numComments=5

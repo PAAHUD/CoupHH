@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=eTabFM
+comment1.params=id\ valeur
+comment1.target=eTabFM(int,\ java.lang.Float)
+comment2.params=
+comment2.target=void\ setFacteurMoment()
+comment3.params=id
+comment3.target=java.lang.Float\ facteurAvenue(int)
+numComments=4

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Noeud
+comment0.text=\r\n\ Description\ \:\ A\ faire\r\n\r\n\ @author\ Thierry\ Mater\r\n\ @version\ 1.0.0\ (30/05/2017)\r\n
+comment1.params=
+comment1.target=Noeud()
+comment1.text=\r\n\ Default\ constructor.\r\n
+comment2.params=noeud\ nom\ action\ valeur
+comment2.target=Noeud(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ \r\n\ @param\ noeud\r\n\ @param\ nom\r\n\ @param\ action\r\n\ @param\ valeur\r\n
+comment3.params=
+comment3.target=java.lang.String\ getNoeud()
+comment3.text=\r\n\ \ \ GETTER\r\n
+comment4.params=
+comment4.target=java.lang.String\ getNom()
+comment5.params=
+comment5.target=java.lang.String\ getAction()
+comment6.params=
+comment6.target=java.lang.String\ getValeur()
+numComments=7

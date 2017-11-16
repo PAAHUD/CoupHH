@@ -1,0 +1,142 @@
+
+/**
+ * Enumeration eDonnee - Enregistrement des valeur pour le fichier
+ * résultat
+ *
+ * @author (PAA Thierry Mater
+ * @version 0.1.0beta du 02/11/17
+ */
+public enum eValeurXML
+{
+    Donnee0("","val",""), 
+    Donnee1("","val",""),
+    Donnee2("","val",""),
+    Donnee3("","val",""),
+    Donnee4("","val",""),
+    Donnee5("","val",""),
+    Donnee6("","val",""),
+    Donnee7("","val",""),
+    Donnee8("","val",""),
+    Donnee9("","val",""),
+    Donnee10("","val",""),
+    Donnee11("","val",""),
+    Donnee12("","val",""),
+    Donnee13("","val",""),
+    Donnee14("","val",""),
+    Donnee15("","val",""),
+    Donnee16("","val",""),
+    Donnee17("","val",""),
+    Donnee18("","val",""),
+    Donnee19("","val",""),
+    Donnee20("","val",""), 
+    Donnee21("","val",""),
+    Donnee22("","val",""),
+    Donnee23("","val",""),
+    Donnee24("","val",""),
+    Donnee25("","val",""),
+    Donnee26("","val",""),
+    Donnee27("","val",""),
+    Donnee28("","val",""),
+    Donnee29("","val",""),
+    Donnee30("","val",""), 
+    Donnee31("","val",""),
+    Donnee32("","val",""),
+    Donnee33("","val",""),
+    Donnee34("","val",""),
+    Donnee35("","val",""),
+    Donnee36("","val",""),
+    Donnee37("","val",""),
+    Donnee38("","val",""),
+    Donnee39("","val",""),
+    Donnee40("","val",""), 
+    Donnee41("","val",""),
+    Donnee42("","val",""),
+    Donnee43("","val",""),
+    Donnee44("","val",""),
+    Donnee45("","val",""),
+    Donnee46("","val",""),
+    Donnee47("","val",""),
+    Donnee48("","val",""),
+    Donnee49("","val",""),
+    Donnee50("","val",""), 
+    Donnee51("","val",""),
+    Donnee52("","val",""),
+    Donnee53("","val",""),
+    Donnee54("","val",""),
+    Donnee55("","val",""),
+    Donnee56("","val",""),
+    Donnee57("","val",""),
+    Donnee58("","val",""),
+    Donnee59("","val",""),
+    Donnee60("","val",""), 
+    Donnee61("","val",""),
+    Donnee62("","val",""),
+    Donnee63("","val",""),
+    Donnee64("","val",""),
+    Donnee65("","val",""),
+    Donnee66("","val",""),
+    Donnee67("","val",""),
+    Donnee68("","val",""),
+    Donnee69("","val",""),
+    Donnee70("","val",""), 
+    Donnee71("","val",""),
+    Donnee72("","val",""),
+    Donnee73("","val",""),
+    Donnee74("","val",""),
+    Donnee75("","val",""),
+    Donnee76("","val",""),
+    Donnee77("","val",""),
+    Donnee78("","val",""),
+    Donnee79("","val",""),
+    Donnee80("","val",""), 
+    Donnee81("","val",""),
+    Donnee82("","val",""),
+    Donnee83("","val",""),
+    Donnee84("","val",""),
+    Donnee85("","val",""),
+    Donnee86("","val",""),
+    Donnee87("","val",""),
+    Donnee88("","val",""),
+    Donnee89("","val",""),
+    Donnee90("","val",""), 
+    Donnee91("","val",""),
+    Donnee92("","val",""),
+    Donnee93("","val",""),
+    Donnee94("","val",""),
+    Donnee95("","val",""),
+    Donnee96("","val",""),
+    Donnee97("","val",""),
+    Donnee98("","val",""),
+    Donnee99("","val",""),
+    Donnee100("","val",""), 
+    Donnee101("","val",""),
+    Donnee102("","val",""),
+    Donnee103("","val",""),
+    Donnee104("","val",""),
+    Donnee105("","val",""),
+    Donnee106("","val",""),
+    Donnee107("","val",""),
+    Donnee108("","val",""),
+    Donnee9("","val",""),
+    
+    private String m_valeur = "";
+    private String m_txt1 = "";
+    private String m_txt2 = "";
+
+    eValeurXML (String txt1, String valeur, String txt2)
+    {
+        this.m_valeur = valeur;
+        this.m_txt1 = txt1;
+        this.m_txt2 = txt2;
+    }
+
+    public String getValeur()
+    {
+        return m_valeur;
+    }
+
+    public void setValeur(String valeur)
+    {
+        this.m_valeur = valeur;
+    }
+}

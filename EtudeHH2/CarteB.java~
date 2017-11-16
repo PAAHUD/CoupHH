@@ -1,0 +1,145 @@
+
+/**
+ * Description : A faire
+ *
+ * @author Thierry Mater
+ * @version 1.0.0 (30/05/2017)
+ */
+public class CarteB
+{
+    // variables d'instance
+    String m_river = "";
+    String m_flop1 = "";
+    String m_flop2 = "";
+    String m_flop3 = "";
+    String m_turn = "";
+    String m_board;
+
+    CarteB()
+    {
+
+    }
+
+    /**
+     *   SETTER
+     **/
+
+    public void setCartesFlop(String val)
+    {
+        /**
+         *   *** FLOP *** [3c 5c Js]
+         *   *** TURN *** [3c 5c Js][9c]
+         *   *** RIVER *** [3c 5c Js 9c][4s]
+         **/
+
+        String[] tabString;
+
+        String strProvisoire;
+        int i;
+
+        tabString = val.split(" \\[");
+        strProvisoire = tabString[1];
+
+        tabString = strProvisoire.split("\\]");
+        strProvisoire = tabString[0];
+        
+        tabString = strProvisoire.split(" ");
+
+        for(i=0;i<tabString.length;++i)
+        {
+            if(tabString[i]!="")
+            {
+                switch (i)
+                {
+                    case 0:
+                    m_flop1=tabString[i];
+                    break;
+                    case 1:
+                    m_flop2=tabString[i];
+                    break;
+                    case 2:
+                    m_flop3=tabString[i];
+                    break;
+                    default:
+                    break;
+                }
+            }
+        }
+    }
+
+    public void setCartesTurn(String val)
+    {
+        /**
+         *   *** FLOP *** [3c 5c Js]
+         *   *** TURN *** [3c 5c Js][9c]
+         *   *** RIVER *** [3c 5c Js 9c][4s]
+         **/
+
+        String[] tabString;
+        
+        tabString = val.split("\\]\\[");
+
+        m_turn =  tabString[1].substring(0, tabString[1].length()-1);
+    }
+
+    public void setCartesRiver(String val)
+    {
+        /**
+         *   *** FLOP *** [3c 5c Js]
+         *   *** TURN *** [3c 5c Js][9c]
+         *   *** RIVER *** [3c 5c Js 9c][4s]
+         **/
+
+        String[] tabString;
+        
+        tabString = val.split("\\]\\[");
+
+        m_river = tabString[1].substring(0, tabString[1].length()-1);
+    }
+
+    public void setCartesBoard(String val)
+    {
+        /**
+         *   Board: [4c 5h Ac 8d]
+         **/
+
+        String[] tabString;
+        tabString = val.split(": \\[");
+
+        m_board = tabString[1].substring(0, tabString[1].length()-1);
+    }
+
+    /**
+     *   GETTER
+     **/
+
+    public String getFlop1()
+    {
+        return m_flop1;
+    }
+
+    public String getFlop2()
+    {
+        return m_flop2;
+    }
+
+    public String getFlop3()
+    {
+        return m_flop3;
+    }
+
+    public String getTurn()
+    {
+        return m_turn;
+    }
+
+    public String getRiver()
+    {
+        return m_river;
+    }
+
+    public String getCartesBoard()
+    {
+        return m_board;
+    }
+}

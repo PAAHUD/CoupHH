@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TableauB
+comment0.text=\r\n\ Classe\ TableauB.\r\n\r\n\ @author\ PAA\ Thierry\ Mater\r\n\ @version\ 0.1.0beta\ du\ 14/11/17\r\n
+comment1.params=
+comment1.target=TableauB()
+comment1.text=\r\n\ Constructeur\ d'objets\ de\ classe\ TableauB\r\n
+comment2.params=
+comment2.target=void\ init()
+comment2.text=\r\n\ Initialisation\ des\ diff\u00E9rents\ tableau\ de\ variable\ concernant\ l'Etape\ B\ du\ calcul\r\n\r\n\ @param\ rien\r\n\ @return\ rien\r\n
+numComments=3

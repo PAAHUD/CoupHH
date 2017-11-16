@@ -1,0 +1,40 @@
+
+Class TraitementFichier : public int selectionFichier(String D:\001_PAA\010_Programme\hud-paa\trunk\Java\HH, String 20121105_Deepstack Hold'em(32182955)_real_holdem_no-limit.txt, int 0) throws IOException
+Traitement du fichier
+Fin du traitement du fichier nombre de ligne lue :10295
+Class TraitementFichier : public int selectionFichier(String D:\001_PAA\010_Programme\hud-paa\trunk\Java\HH, String 20121105_Deepstack Omaha(32183065)_real_omaha_pot-limit.txt, int 0) throws IOException
+Traitement du fichier
+Fin du traitement du fichier nombre de ligne lue :2644
+Class Gestion : public void traitementHH() throws IOException
+Suppression du fichierHH D:\001_PAA\010_Programme\hud-paa\trunk\Java\HH\20121105_Deepstack Hold'em(32182955)_real_holdem_no-limit.txt a échoué.
+Class Gestion : public void traitementHH() throws IOException
+Suppression du fichierHH D:\001_PAA\010_Programme\hud-paa\trunk\Java\HH\20121105_Deepstack Hold'em(32182955)_real_holdem_no-limit_summary.txt réussi.
+Class Gestion : public void traitementHH() throws IOException
+Suppression du fichierHH D:\001_PAA\010_Programme\hud-paa\trunk\Java\HH\20121105_Deepstack Omaha(32183065)_real_omaha_pot-limit.txt réussi.
+Class Gestion : public void traitementHH() throws IOException
+Suppression du fichierHH D:\001_PAA\010_Programme\hud-paa\trunk\Java\HH\20121105_Deepstack Omaha(32183065)_real_omaha_pot-limit_summary.txt réussi.
+Class TraitementFichier : public int selectionFichier(String D:\001_PAA\010_Programme\hud-paa\trunk\Java\HH, String 20121105_Deepstack Hold'em(32182955)_real_holdem_no-limit.txt, int 0) throws IOException
+Traitement du fichier
+Fin du traitement du fichier nombre de ligne lue :10295
+Class TraitementFichier : public int selectionFichier(String D:\001_PAA\010_Programme\hud-paa\trunk\Java\HH, String 20121105_Deepstack Hold'em(32182955)_real_holdem_no-limit.txt, int 10295) throws IOException
+Traitement du fichier
+Fin du traitement du fichier nombre de ligne lue :10295
+Class TraitementFichier : public int selectionFichier(String D:\001_PAA\010_Programme\hud-paa\trunk\Java\HH, String 20121105_Deepstack Hold'em(32182955)_real_holdem_no-limit.txt, int 10295) throws IOException
+Traitement du fichier
+Fin du traitement du fichier nombre de ligne lue :10295
+Class TraitementFichier : public int selectionFichier(String D:\001_PAA\010_Programme\hud-paa\trunk\Java\HH, String 20121105_Deepstack Hold'em(32182955)_real_holdem_no-limit.txt, int 10295) throws IOException
+Traitement du fichier
+Fin du traitement du fichier nombre de ligne lue :10295
+Class TraitementFichier : public int selectionFichier(String D:\001_PAA\010_Programme\hud-paa\trunk\Java\HH, String 20121105_Deepstack Hold'em(32182955)_real_holdem_no-limit.txt, int 10295) throws IOException
+Traitement du fichier
+Fin du traitement du fichier nombre de ligne lue :10295
+Class TraitementFichier : public int selectionFichier(String D:\001_PAA\010_Programme\hud-paa\trunk\Java\HH, String 20121105_Deepstack Hold'em(32182955)_real_holdem_no-limit.txt, int 10295) throws IOException
+Traitement du fichier
+Fin du traitement du fichier nombre de ligne lue :10295
+Class TraitementFichier : public int selectionFichier(String D:\001_PAA\010_Programme\hud-paa\trunk\Java\HH, String 20121108_DIGESTIF(32350265)_real_holdem_no-limit.txt, int 0) throws IOException
+Traitement du fichier
+Fin du traitement du fichier nombre de ligne lue :4518
+Class Gestion : public void traitementHH() throws IOException
+Suppression du fichierHH D:\001_PAA\010_Programme\hud-paa\trunk\Java\HH\20121108_DIGESTIF(32350265)_real_holdem_no-limit.txt réussi.
+Class Gestion : public void traitementHH() throws IOException
+Suppression du fichierHH D:\001_PAA\010_Programme\hud-paa\trunk\Java\HH\20121108_DIGESTIF(32350265)_real_holdem_no-limit_summary.txt réussi.

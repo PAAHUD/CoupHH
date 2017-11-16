@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=eTabFV
+comment1.params=id\ vitesse\ valeur
+comment1.target=eTabFV(int,\ int,\ java.lang.Float)
+comment2.params=
+comment2.target=void\ setFacteurVitesse()
+comment3.params=
+comment3.target=java.lang.Float\ facteurVitesse()
+comment4.params=valeur
+comment4.target=int\ getId(java.lang.Float)
+numComments=5

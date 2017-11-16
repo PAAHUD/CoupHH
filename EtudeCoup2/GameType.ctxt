@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=GameType
+comment0.text=\r\n\ Enumeration\ GameType\r\n\r\n\ @author\ PAA\ Thierry\ Mater\r\n\ @version\ 0.0.3beta\r\n
+comment1.params=id\ type\ cardsOnTable\ cardsOnHandPlayers
+comment1.target=GameType(java.lang.Integer,\ java.lang.String,\ java.lang.Integer,\ java.lang.Integer)
+comment2.params=
+comment2.target=java.lang.String\ getType()
+comment3.params=
+comment3.target=java.lang.Integer\ getId()
+comment4.params=
+comment4.target=java.lang.Integer\ getcardsOnHandPlayers()
+numComments=5

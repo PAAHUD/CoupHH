@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Dossier
+comment1.params=
+comment1.target=Dossier()
+comment1.text=\r\n\ Dossier\ Constructeur\r\n\r\n
+comment2.params=repertoire
+comment2.target=void\ enumDossier(java.lang.String)
+comment3.params=repertoire
+comment3.target=java.util.List\ lectureDossier(java.lang.String)
+comment3.text=\r\n\ M\u00E9thode\ lectureDossier\r\n\r\n\ @param\ repertoire\ Un\ param\u00E8tre\r\n\ @return\ La\ valeur\ de\ retour\r\n
+numComments=4

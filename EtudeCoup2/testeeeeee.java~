@@ -1,0 +1,208 @@
+import java.util.StringTokenizer;
+import java.io.IOException;
+
+/**
+ * Décrivez votre classe testeeeeee ici.
+ *
+ * @author thierry Mater
+ * @version 1.0.0 du 05/10/2017
+ */
+public class testeeeeee
+{
+    // variables d'instance
+
+    private String message;
+    private static String URL_ROOT = "http://www.pokerlistings.com/api/v1/poker/";
+    private static String PLAYER_NAME = "player_";
+    private static String FOLD_PLAYER_NAME = "fold_player_";
+    private static String BOARD_CARDS = "board_cards";
+    private static String GAME_TYPE = "game=";
+
+    /**
+     * Constructeur d'objets de classe testeeeeee
+     */
+    public testeeeeee()
+    {
+        // initialisation des variables d'instance
+
+    }
+
+    public void poureJoueur()
+    {
+        eJoueur.Hero.setNom("xxxKandjar");
+
+        for(eJoueur game: eJoueur.values())
+        {
+            if(game.getId() == 2)
+            {
+                game.setJetonTurn(1265897);
+                System.out.println(game.getJetonTurn());
+            }
+        }
+        
+        System.out.println(eJoueur.Hero.ecriture());
+        System.out.println(eJoueur.Vilain2.ecriture());
+    }
+
+    public void pourtester()
+    {
+        Integer id = 2, joueur = 2;
+        String[] carte = {"Ac,Ah,Tc,5h","Kc,9c,Kh,As","","","","9h,9s,Ad","6c"};
+        char avenue = 'D';
+
+        //new Log("fichierLog.log", creationMessage(id, joueur, carte, avenue));
+
+        //String mss = " \"results\": { \"board_cards\": [\"9h\",\"9s\",\"8s\",\"6c\"],\"players\": [{ \"player\": 1,\"hand\": [\"6s\",\"Ac\",\"Tc\",\"5h\"],\"results\": { \"win\": \"10.06%\",\"lose\": \"89.94%\",\"tie\": \"0.00%\",\"EV\": 0.101 } },{ \"player\": 2,\"hand\": [\"As\",\"Kc\",\"9c\",\"Kh\"],\"results\": { \"win\": \"89.94%\",\"lose\": \"10.06%\",\"tie\": \"0.00%\",\"EV\": 0.899 } }],\"folded_cards\": [] } }";
+
+        Http requetteGet = new Http();
+        String retour = "";
+
+        try
+        {
+            retour = requetteGet.get(creationMessage(id, joueur, carte, avenue));
+        }
+        catch (IOException e2)
+        {
+            new Log("Class testeeeeee : pourtester()");
+            new Log("erreur retour = requetteGet.get(creationMessage(id, joueur, carte, avenue));");
+            new Log(e2.getMessage());
+        }
+
+        String[] msg = retour.split("\"results\": \\{ ");
+
+        String s = msg[2];
+
+        StringTokenizer st = new StringTokenizer(s,"\"");
+        String mot = "";
+
+        while (st.hasMoreTokens())
+        {
+            mot = st.nextToken();
+
+            switch (mot) 
+            { 
+                case "win":
+                mot = st.nextToken();
+                mot = st.nextToken();
+                new Log(mot.substring(0,mot.length()-1));
+                break;
+                case "lose":
+                mot = st.nextToken();
+                mot = st.nextToken();
+                new Log(mot.substring(0,mot.length()-1));
+                break;
+                case "tie":
+                mot = st.nextToken();
+                mot = st.nextToken();
+                new Log(mot.substring(0,mot.length()-1));
+                break;
+            }
+        }
+    }
+
+    /**
+     *  holdemGameType
+     *  id: 0
+     *  shortTitle: "holdem"
+     *  countCardsOnTable: 4
+     *  countCardsOnHandPlayers: 2
+
+     *  holdem8GameType
+     *  id: 1,
+     *  shortTitle: "holdem8"
+     *  countCardsOnTable: 4
+     *  countCardsOnHandPlayers: 2
+
+     *  omahaGameType 
+     *  id: 2
+     *  shortTitle: "omaha"
+     *  countCardsOnTable: 4
+     *  countCardsOnHandPlayers: 4
+
+     *  omaha8GameType
+     *  id: 3
+     *  shortTitle: "omaha8",
+     *  countCardsOnTable: 4
+     *  countCardsOnHandPlayers: 4
+
+     *  stud7GameType
+     *  id: 4
+     *  shortTitle: "7stud"
+     *  countCardsOnTable: 0
+     *  countCardsOnHandPlayers: 6
+
+     *  stud78GameType
+     *  id: 5
+     *  shortTitle: "7stud8"
+     *  countCardsOnTable: 0
+     *  countCardsOnHandPlayers: 6
+
+     *  stud78nqGameType
+     *  id: 6
+     *  shortTitle: "7stud8nq"
+     *  countCardsOnTable: 0
+     *  countCardsOnHandPlayers: 6
+
+     *  razzGameType 
+     *  id: 7
+     *  shortTitle: "razz"
+     *  countCardsOnTable: 0
+     *  countCardsOnHandPlayers: 6
+     *  
+     *  Integer id
+     *      de 0 à 7 : correspond au type de jeux voir ci-dessus
+     *      
+     *  Integer nbJoueur
+     *      nombre de joueurs jouant le coup (présent au Showdown)
+     *  
+     *  char avenue
+     *      par défaut 'A' ne prends en compte que les cartes des joueurs
+     *      'C' cartes des joueurs + les cartes du Flop
+     *      'D' cartes des joueurs + les cartes du Flop + carte de la Turn
+     *  
+     *  String[] carte : 
+     *      carte[0 à 4] pour les joueurs
+     *          0 : toujours les cartes privatives du Hero
+     *          1 à 4 : cartes privatives du ou des Villains
+     *      carte[5] pour les cartes du Flop
+     *      carte[6] pour la carte du Turn
+
+     */
+    public String creationMessage(Integer id, Integer nbJoueur, String[] carte, char avenue)
+    {
+        message = URL_ROOT;
+
+        for(GameType game: GameType.values())
+        {
+            if(game.getId() == id)
+                message += game.getType() + "/odds?";
+        }
+
+        String informationJoueur = "";
+        for(Integer i=0; i<nbJoueur; i++)
+        {
+            informationJoueur = informationJoueur + PLAYER_NAME + (i+1) + "=";
+            informationJoueur += carte[i];
+
+            if((i+1)< nbJoueur)
+                informationJoueur += "&";
+
+        }
+        message += "&" + informationJoueur;
+
+        /**
+         * A Ante - B PréFlop - C Flop - D Turn - E River
+         */
+        if(avenue=='C')
+        {
+            message += "&" + BOARD_CARDS + "=" + carte[5];
+        }
+
+        if(avenue=='D')
+        {
+            message += "&" + BOARD_CARDS + "=" + carte[5] + "," + carte[6];
+        }
+
+        return message;
+    }
+}

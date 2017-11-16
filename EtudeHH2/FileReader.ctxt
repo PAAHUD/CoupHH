@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=FileReader
+comment1.params=
+comment1.target=FileReader()
+comment1.text=\r\n\ FileReader\ Constructeur\r\n\r\n
+comment2.params=fileName
+comment2.target=void\ showFile(java.lang.String)
+comment2.text=\r\n\ M\u00E9thode\ showFile\r\n\r\n\ @param\ fileName\ Un\ param\u00E8tre\r\n
+comment3.params=fileName
+comment3.target=void\ checkedShowFile(java.lang.String)
+comment3.text=\r\n\ M\u00E9thode\ checkedShowFile\r\n\r\n\ @param\ fileName\ Un\ param\u00E8tre\r\n
+comment4.params=fileName
+comment4.target=java.io.InputStream\ openFile(java.lang.String)
+comment4.text=\r\n\ M\u00E9thode\ openFile\r\n\r\n\ @param\ fileName\ Un\ param\u00E8tre\r\n\ @return\ La\ valeur\ de\ retour\r\n
+numComments=5

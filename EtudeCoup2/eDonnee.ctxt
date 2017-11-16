@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=eDonnee
+comment0.text=\n\ Enumeration\ eDonnee\ -\ Enregistrement\ des\ ent\u00EAtes\ des\ coups\n\n\ @author\ (PAA\ Thierry\ Mater\n\ @version\ 0.1.0beta\ du\ 02/11/17\n
+comment1.params=valeur
+comment1.target=eDonnee(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getValeur()
+comment3.params=valeur
+comment3.target=void\ setValeur(java.lang.String)
+comment4.params=
+comment4.target=void\ raz()
+numComments=5

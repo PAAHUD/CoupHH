@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=BouclierBB
+comment0.text=\r\n\ Enumeration\ BouclierBB\ -\ retourne\ la\ valeur\ d'un\ bouclier\ en\ fonction\ de\ la\ valeur\ boolean\r\n\r\n\ @author\ PAA\ Thierry\ Mater\r\n\ @version\ 0.1.0beta\r\n
+comment1.params=id\ bouclier
+comment1.target=BouclierBB(byte,\ byte)
+comment2.params=id
+comment2.target=byte\ recherche(byte)
+numComments=3

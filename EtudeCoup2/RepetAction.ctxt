@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=RepetAction
+comment0.text=\r\n\ Description\ \:\ A\ faire\r\n\r\n\ @author\ Thierry\ Mater\r\n\ @version\ 0.0.2beta\ (11/10/2017)\r\n\ \ ajout\ des\ erreurs\ dans\ un\ fichier\ Log\r\n
+comment1.params=repertoire
+comment1.target=RepetAction(java.lang.String)
+comment2.params=
+comment2.target=void\ stop()
+numComments=3
